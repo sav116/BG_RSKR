@@ -1,3 +1,5 @@
 PPO*
 SPO*
 venv/
+settings/__pycache__
+test.py

@@ -29,16 +29,16 @@ ppo_d = {
 spo_d = {
     '10.19.88.1':
         {
-            'app': '\\SPO\\10.19.88.1\\win_application_log_findstr\\',
+            'win_app': '\\SPO\\10.19.88.1\\win_application_log_findstr\\',
             'iis': '\\SPO\\10.19.88.1\\iis_log_findstr\\',
-            'sys': '\\SPO\\10.19.88.1\\win_system_log_findstr\\'
+            'win_sys': '\\SPO\\10.19.88.1\\win_system_log_findstr\\'
         },
     '10.19.88.2':
         {
             'apache_tomcat': '\\SPO\\10.19.88.2\\ApacheTomcat_findstr\\',
             'iis': '\\SPO\\10.19.88.2\\iis_log_findstr\\',
-            'app': '\\SPO\\10.19.88.2\\win_application_log_findstr\\',
-            'sys': '\\SPO\\10.19.88.2\\win_system_log_findstr\\'
+            'win_app': '\\SPO\\10.19.88.2\\win_application_log_findstr\\',
+            'win_sys': '\\SPO\\10.19.88.2\\win_system_log_findstr\\'
         },
     '10.19.88.3':
         {
@@ -51,16 +51,16 @@ spo_d = {
         },
     '10.19.88.5':
         {
-            'app': '\\SPO\\10.19.88.5\\win_application_log_findstr\\',
+            'win_app': '\\SPO\\10.19.88.5\\win_application_log_findstr\\',
             'iis': '\\SPO\\10.19.88.5\\iis_log_findstr\\',
-            'sys': '\\SPO\\10.19.88.5\\win_system_log_findstr\\'
+            'win_sys': '\\SPO\\10.19.88.5\\win_system_log_findstr\\'
         },
     '10.19.88.6':
         {
             'apache_tomcat': '\\SPO\\10.19.88.6\\ApacheTomcat_findstr\\',
             'iis': '\\SPO\\10.19.88.6\\iis_log_findstr\\',
-            'app': '\\SPO\\10.19.88.6\\win_application_log_findstr\\',
-            'sys': '\\SPO\\10.19.88.6\\win_system_log_findstr\\'
+            'win_app': '\\SPO\\10.19.88.6\\win_application_log_findstr\\',
+            'win_sys': '\\SPO\\10.19.88.6\\win_system_log_findstr\\'
         },
     '10.19.88.7':
         {
