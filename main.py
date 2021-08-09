@@ -83,7 +83,6 @@ def get_discription_id(sheet, errors, ip):
         print(f"Не найдены описания для EventID: {is_not_description} для {ip}")
     return result
 
-
 def get_iis_errors(current_path, ip, sheet_codes):
     iis_log_file = current_path + spo_d[ip]['iis'] + os.listdir(current_path + spo_d[ip]['iis'])[
         0]  # absolute path to log file iis
@@ -208,5 +207,5 @@ if __name__ == '__main__':
     doc_ppo = run_ppo()
     doc_ppo.save(f'PPO_{now.day}_{now.month}_{now.year}.doc')
     doc_spo = run_spo()
-    send_reports_to_telegram()
+    #send_reports_to_telegram()
 
